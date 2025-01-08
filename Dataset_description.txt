@@ -1,0 +1,20 @@
+SA DatasetData source: (CSV data) https://www.kaggle.com/datasets/everydaycodings/global-news-dataset?resource=download
+(JASON data) https://github.com/Webhose/free-news-datasets
+
+
+Brief Description:
+
+Our team combined CSV data and JSON data in one dataset, left "Title", "Text", "Sentiment" three columns. Dataset language is English. The "Sentiment" column has three labels: Positive, Neutral, Negative.
+
+
+DA Dataset
+
+Data source: https://huggingface.co/datasets/FinGPT/fingpt-fiqa_qa
+Modified dataset file name: 
+1) merge_ds_1000.csv 
+2) finance_merge_ds_1000.json
+
+Brief Description:
+For 1), we create csv format file after the summarization of 1000 answers at each question (QA set)
+For 2), we create the prompt to help the model understand well about our QA tasks.
+e.g. 0 Below is an instruction that describes a task. ### Instruction: What is considered a business expense on a business trip? ### Response: Taxpayers who travel away from home on business may deduct related   expenses. Expenses must be reasonable   and appropriate; deductions for extravagant expenses are not   allowable. For travel in 2010, the rate for most small   localities in the United States is $46 a day.
